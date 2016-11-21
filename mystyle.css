@@ -1,0 +1,45 @@
+﻿body {
+      background-color: Black;
+}
+
+div img.suelo_lunar {
+                     position: absolute;
+                     left: 0;
+                     bottom: 0;
+                     right 0;
+                     height: 100px;
+                     width: 100%;
+}
+
+div img.nave_espacial  {
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+}
+
+.pantalla_controles {
+                     position: absolute;
+                     top: 0px;
+                     left: 0px;
+}
+
+.control_panel {
+                position: absolute;
+                top: 40px;
+                left: 40px;
+                color: #26BC2B;
+}
+
+.control_panel th {
+                   text-align: center;
+}
+
+td.elementos_control_panel {
+                            text-align: left;
+                            padding-top: 15px;
+}
+
+td.unidades_control_panel {
+                            text-align: right;
+                            padding-top: 15px;
+}
