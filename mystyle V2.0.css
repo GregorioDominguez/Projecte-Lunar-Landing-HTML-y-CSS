@@ -1,0 +1,93 @@
+﻿body {
+      background-color: black;
+}
+
+div img.suelo_lunar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100px;
+    width: 100%;
+}
+
+div img.nave_espacial  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pantalla_controles {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.control_panel {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    color: #26BC2B;
+}
+
+.control_panel th {
+    text-align: center;
+}
+
+td.elementos_control_panel {
+    text-align: left;
+    padding-top: 15px;
+}
+
+td.unidades_control_panel {
+    text-align: right;
+    padding-top: 15px;
+}
+
+.pantalla_menu_opciones {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.boton_menu {
+    background-color: black;
+    color: #26BC2B;
+    border: none;
+    cursor: pointer;
+}
+
+.menu_opciones {
+    position: absolute;
+    right: 140px;
+    top: 40px;
+    display: inline-block;
+}
+
+.contenido_menu {
+    display: none;
+    position: absolute;
+    color: #26BC2B;
+    background-color: black;
+}
+
+.contenido_menu a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.contenido_menu a:hover {
+    background-color: #26BC2B;
+    color: black;
+}
+
+.menu_opciones:hover div.contenido_menu {
+    display: block;
+}
+
+.menu_opciones:hover .boton_menu {
+    background-color: #26BC2B;
+    color: black;
+}
